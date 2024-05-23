@@ -2,6 +2,63 @@
 Changelog
 =========
 
+`1.2.2 <https://github.com/saltstack-formulas/apache-formula/compare/v1.2.1...v1.2.2>`_ (2021-10-28)
+--------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **redhat:** use correct vhostdir, sitesdir and logrotate script for redhat family (\ `#376 <https://github.com/saltstack-formulas/apache-formula/issues/376>`_\ ) (\ `c4b8538 <https://github.com/saltstack-formulas/apache-formula/commit/c4b85381288ae878207ffa5d2cc36cabc916e8f1>`_\ )
+
+`1.2.1 <https://github.com/saltstack-formulas/apache-formula/compare/v1.2.0...v1.2.1>`_ (2021-10-20)
+--------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **vhosts:** reset ``cleanup`` to previous and use dedicated ``clean`` SLS (\ `0c6c1d3 <https://github.com/saltstack-formulas/apache-formula/commit/0c6c1d36e261ae6f851cb9b6ed2d1319af460a73>`_\ )
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **kitchen+ci:** update with latest CVE pre-salted images [skip ci] (\ `a3d49f1 <https://github.com/saltstack-formulas/apache-formula/commit/a3d49f185274efc6d1530580daf03b1ad2be0e2d>`_\ )
+* test for upstream Salt regressions in ``master`` instances (2021-W37a) (\ `69dcfd9 <https://github.com/saltstack-formulas/apache-formula/commit/69dcfd9c3bf49416e6c77d8e982446d99af3b95c>`_\ )
+
+Documentation
+^^^^^^^^^^^^^
+
+
+* **readme:** document vhosts clean/cleanup (\ `2d72dff <https://github.com/saltstack-formulas/apache-formula/commit/2d72dff82bdcf9c0d30f6735c315a655ebea483d>`_\ ), closes `#372 <https://github.com/saltstack-formulas/apache-formula/issues/372>`_
+
+`1.2.0 <https://github.com/saltstack-formulas/apache-formula/compare/v1.1.8...v1.2.0>`_ (2021-08-28)
+--------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **suse:** use correct vhostdir and sitesdir for suse family (\ `#369 <https://github.com/saltstack-formulas/apache-formula/issues/369>`_\ ) (\ `fe0ceb7 <https://github.com/saltstack-formulas/apache-formula/commit/fe0ceb78b7d4e9f67bc4d5b684b847bdcc604b20>`_\ ), closes `/documentation.suse.com/sles/15-SP3/html/SLES-all/cha-apache2.html#sec-apache2 <https://github.com//documentation.suse.com/sles/15-SP3/html/SLES-all/cha-apache2.html/issues/sec-apache2>`_
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **3003.1:** update inc. AlmaLinux, Rocky & ``rst-lint`` [skip ci] (\ `2e116ec <https://github.com/saltstack-formulas/apache-formula/commit/2e116ec4123b846edd85b651c9634e03cb102abf>`_\ )
+* **freebsd:** update with latest pre-salted Vagrant boxes [skip ci] (\ `d679580 <https://github.com/saltstack-formulas/apache-formula/commit/d67958043df41515350a4b02c5de81e0d83eb813>`_\ )
+* **gemfile+lock:** use ``ssf`` customised ``inspec`` repo [skip ci] (\ `5dd7009 <https://github.com/saltstack-formulas/apache-formula/commit/5dd700944b413411fc3557063125f22c1eb6f62a>`_\ )
+* **kitchen:** move ``provisioner`` block & update ``run_command`` [skip ci] (\ `0d1a6dc <https://github.com/saltstack-formulas/apache-formula/commit/0d1a6dc75d1a781518bf4d7262dbfb4cfbc2c0b9>`_\ )
+* **kitchen+ci:** update with latest ``3003.2`` pre-salted images [skip ci] (\ `d3641d7 <https://github.com/saltstack-formulas/apache-formula/commit/d3641d7f0d427d9e8be9d20bd03f84977d1cba22>`_\ )
+* add Debian 11 Bullseye & update ``yamllint`` configuration [skip ci] (\ `7741b90 <https://github.com/saltstack-formulas/apache-formula/commit/7741b90ff66719c1abfca3fb306d07ee47cbd4c8>`_\ )
+
+Features
+^^^^^^^^
+
+
+* **alma+rocky:** add platforms (based on CentOS 8) [skip ci] (\ `4353e57 <https://github.com/saltstack-formulas/apache-formula/commit/4353e57a1b652186f552472f16f1b06f8fb4f0a1>`_\ )
+
 `1.1.8 <https://github.com/saltstack-formulas/apache-formula/compare/v1.1.7...v1.1.8>`_ (2021-06-28)
 --------------------------------------------------------------------------------------------------------
 
